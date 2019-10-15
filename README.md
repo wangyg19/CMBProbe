@@ -34,7 +34,7 @@ If you use our codes and datasets, please cite:
 ## Environment Configuration and Package Installation
 The code has been tested in Python 3.6 environment. The CMBProbe relies on healpy package
 * [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
-* To enhance the computational efficiency, we recommend the users to run the codes in HPC facility.
+* To enhance the computational efficiency, we recommend users to run the codes in HPC facility.
 
 ## Functions and Folders
 * **utils**: This folder contains some basic tools/resources/auxiliary functions used for implementing our main functions, including
@@ -45,7 +45,7 @@ The code has been tested in Python 3.6 environment. The CMBProbe relies on healp
 
 * **Setup.m**: The script for downloading NFFT package (compatible with the user's operating system and computing environment) and unzipping and installing the package in the current folder of FaVeST. If the installation is successful, users can test FaVeST in the demos and examples. The **Setup.m** and **Demo.m** have been tested on **Ubuntu 16.04.6, macOS High Sierra and Mojave, Windows7，8，10**. Please make sure that your operating system meets the requirement of NFFT package.</span>
 
-* **Demo.m**: The picture below shows the AC discrepancy map (right) with resolution Nside = 256 **ACD.m** for the Commander 2015 CMB temparature map (left) from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
+* **Demo.m**: The picture below shows the AC discrepancy map (right) with resolution Nside = 256 **ACD.py** for the Commander 2015 CMB temparature map (left) from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
 
 ## Demo
