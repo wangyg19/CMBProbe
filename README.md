@@ -34,7 +34,8 @@ If you use our codes and datasets, please cite:
 ## Environment Configuration and Package Installation
 The code has been tested in Python 3.6 environment. This package relies on healpy package
 
-* [NFFT library](https://www-user.tu-chemnitz.de/~potts/nfft/): Keiner, J., Kunis, S., and Potts, D. "[*Using NFFT 3 - a software library for various nonequispaced fast Fourier transforms, ACM Trans. Math. Software,36, Article 19, 1-30, 2009*](https://dl.acm.org/citation.cfm?id=1555388)".  [Download Website](https://www-user.tu-chemnitz.de/~potts/nfft/download.php)
+* [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[*Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
+
 * We provide the script **Setup.m** to download a recent version of NFFT: *nfft-3.5.0-mexa64-octave-5.1-openmp.tar.gz* for **Linux binaries**,	*nfft-3.5.0-mexw64-openmp.zip* or *nfft-3.5.0-mexw32-openmp.zip* for **Windows binaries**, or *nfft-3.5.0-mexmaci64-openmp.zip* for **macOS binaries**, followed by a Demo for FaVeST on simulated tangent fields. In this manner, users can simply run **Setup.m** in Matlab when using for the first time. 
 
 ## Functions and Folders
@@ -62,7 +63,7 @@ After running **Setup.m** successfully (meaning that NFFT package folder appears
 
 
 ## Acknowledgement
-We would thank E. J. Fuselier and G. B. Wright for providing their MATLAB program which generates simulated tangent fields. The NFFT package is used for the **FaVeST** package. M. Li acknowledges support from the Australian Research Council under Discovery Project DP160101366. Q. T. Le Gia and Y. G. Wang acknowledge support from the Australian Research Council under Discovery Project DP180100506.
+Some of the results in this paper have been derived using the HEALPix Gorski et al. (2005) package. The authors acknowledge support from the Australian Research Council under Discovery Project DP180100506.
 
 ## Notes
 The package **FaVeST** may be used for any research purposes under the following conditions:
