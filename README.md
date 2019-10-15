@@ -54,7 +54,7 @@ When the dependent packages are installed successfully, users can obtain the fol
 <img src="https://github.com/mingli-ai/FaVeST/blob/master/images/vf_1_gl.png" width="250"><img src="https://github.com/mingli-ai/FaVeST/blob/master/images/vf_1_rec_gl.png" width="250"><img src="https://github.com/mingli-ai/FaVeST/blob/master/images/vf_1_err_gl.png" width="250">
 
 
-## Acknowledgement
+## Acknowledgements
 Some of the results in this paper have been derived using the [HEALPix package](https://healpix.sourceforge.io/) [Gorski et al. (2005)](https://arxiv.org/abs/astro-ph/0409513). The authors acknowledge support from the Australian Research Council under Discovery Project DP180100506.
 
 ## Notes
