@@ -58,7 +58,7 @@ When the dependent packages are installed successfully, users can obtain the fol
 Some of the results in this paper have been derived using the [HEALPix package](https://healpix.sourceforge.io/) [Gorski et al. (2005)](https://arxiv.org/abs/astro-ph/0409513). The authors acknowledge support from the Australian Research Council under Discovery Project DP180100506.
 
 ## Notes
-The package **FaVeST** may be used for any research purposes under the following conditions:
-* The user must acknowledge the use of **FaVeST** in publications resulting from the use of the functions/tools.
-* The user may not redistribute **FaVeST** without separate permission.
+The package **CMBProbe** may be used for any research purposes under the following conditions:
+* The user must acknowledge the use of **CMBProbe** in publications resulting from the use of the functions/tools.
+* The user may not redistribute **CMBProbe** without separate permission.
 * The user may not use this information for any commercial or revenue-bearing purposes without first obtaining permission from us.
