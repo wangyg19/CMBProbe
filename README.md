@@ -34,6 +34,7 @@ If you use our codes and datasets, please cite:
 ## Environment Configuration and Package Installation
 The code has been tested in Python 3.6 environment. This package relies on healpy package
 * [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
+* To enhance the computational efficiency, we recommend the users to run the codes in HPC facility.
 
 ## Functions and Folders
 * **utils**: This folder contains some basic tools/resources/auxiliary functions used for implementing our main functions, including
