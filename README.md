@@ -21,16 +21,6 @@ behavior with a model field that is Gaussian but not isotropic. In contrast, the
 2018 SEVEM map (which has visible equatorial pollution) is modelled by an isotropic Gaussian
 random field plus a non-random needlet-like structure located near the galactic center.
 
-## Citation 
-If you use our codes and datasets, please cite:
-```
-@article{CMBProbe,
-  title={A new Probe of non-Gaussianity for Maps of the CMB},
-  author={Sloan, Ian H. and Le Gia, Quoc T. and and Wang, Yu Guang and Womersley, Robert S. and Hamann, Jan},
-  journal={arXiv preprint arXiv:},
-  year={2019}
-}
-```
 ## Environment Configuration and Package Installation
 The code has been tested in Python 3.6 environment. The CMBProbe relies on healpy package
 * [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
@@ -57,6 +47,16 @@ When the dependent packages are installed successfully, users can obtain the fol
 ## Acknowledgements
 Some of the results in this paper have been derived using the [HEALPix package](https://healpix.sourceforge.io/) [Gorski et al. (2005)](https://arxiv.org/abs/astro-ph/0409513). The authors acknowledge support from the Australian Research Council under Discovery Project DP180100506.
 
+## Citation 
+If you use our codes and datasets, please cite:
+```
+@article{CMBProbe,
+  title={A new Probe of non-Gaussianity for Maps of the CMB},
+  author={Sloan, Ian H. and Le Gia, Quoc T. and and Wang, Yu Guang and Womersley, Robert S. and Hamann, Jan},
+  journal={arXiv preprint arXiv:},
+  year={2019}
+}
+```
 ## Notes
 The package **CMBProbe** may be used for any research purposes under the following conditions:
 * The user must acknowledge the use of **CMBProbe** in publications resulting from the use of the functions/tools.
