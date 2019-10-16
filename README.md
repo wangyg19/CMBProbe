@@ -33,11 +33,13 @@ pip install healpy
 ## Program routines
 * **coeff_cmb.py** estimates the Fourier coefficients from CMB map (which is in .fits format). 
 
-* **Autocorr.py** computes autocorrelation for a sequence.
+* **autocorr.py** computes autocorrelation for a sequence.
 
 * **ACDcommander15.py, ACDsevem18.py** compute the AC discrepancy maps with resolution Nside = 256 for the Commander 2015 and SEVEM 2018 CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps). They use the Fourier coefficients estimated by **coeff_cmb.py**.
 
 * **ACD_plt.py** plots the AC discrepancy map and saves it to .png format.
+
+* **colormap.py** configures the colormap for CMB and AC discrepancy maps using platter **cmbmap.mat**.
 
 * **cmbmap.mat** is the colormap (platter) for CMB maps and AC discrepancy maps.
 
@@ -46,6 +48,12 @@ pip install healpy
 When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 256 using the following routines for the Commander 2015 (left) and SEVEM 2018 CMB (right) temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
 For example, run
+```
+python coeff_cmb.py
+```
+to generate Fourier coefficients from CMB map "COM_CMB_IQU-commander_2048_R3.01_full.fits", which can be downloaded from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
+
+Run
 ```
 python ACDcommander15.py
 ```
