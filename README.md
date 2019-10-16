@@ -41,7 +41,7 @@ The code has been tested in Python 3.6 environment. The CMBProbe relies on healp
 ## Demo
 When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 1024 using **ACD.py** for the Commander 2015 (left) and SEVEM 2018 CMB (right) temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
-  <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="400"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="400">
+  <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="420"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="420">
 
 
 ## Acknowledgements
