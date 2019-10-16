@@ -1,7 +1,7 @@
 # CMBProbe
 This is the Python package for AC discrepancy maps in the paper
 
->Ian H. Sloan, Quoc T. Le Gia, Yu Guang Wang, Robert S. Womersley and Jan Hamann. [A new Probe of non-Gaussianity for Maps of the CMB](). arXiv preprint arXiv:, 2019.
+>Ian H. Sloan, Quoc T. Le Gia, Yu Guang Wang, Robert S. Womersley and Jan Hamann. [A New Probe of non-Gaussianity for CMB Maps](). arXiv preprint arXiv:, 2019.
 
 Author: Dr. Yu Guang Wang (yuguang.wang@unsw.edu.au).
 
@@ -75,7 +75,7 @@ Some of the results in this paper have been derived using the [HEALPix package](
 If you use our codes and datasets, please cite:
 ```
 @article{CMBProbe,
-  title={A new Probe of non-Gaussianity for Maps of the CMB},
+  title={A new Probe of non-Gaussianity for CMB Maps},
   author={Sloan, Ian H. and Le Gia, Quoc T. and and Wang, Yu Guang and Womersley, Robert S. and Hamann, Jan},
   journal={arXiv preprint arXiv:},
   year={2019}
