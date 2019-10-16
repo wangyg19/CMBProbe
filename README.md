@@ -80,7 +80,7 @@ If you use our codes and datasets, please cite:
 }
 ```
 ## Notes
-If you find any problem in codes, please contact Yu Guang Wang (yuguang.wang@unsw.edu.au).
+If you find any problem in programs, please contact Yu Guang Wang (yuguang.wang@unsw.edu.au).
 
 The package **CMBProbe** may be used for any research purposes under the following conditions:
 * The user must acknowledge the use of **CMBProbe** in publications resulting from the use of the functions/tools.
