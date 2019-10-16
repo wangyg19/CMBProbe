@@ -61,7 +61,7 @@ to compute AC discrepancies at HEALPix points at resolutioin Nside=256 (with abo
 
 Then run
 ```
-python ACD_plt.py
+python ACDplt.py
 ```
 to generate the AC discrepancy map for Commander 2015.
 
