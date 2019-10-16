@@ -29,15 +29,21 @@ Install healpy using
 * To enhance the computational efficiency, we recommend users to run the codes in HPC facility.
 
 ## Program routines
-* 
+* **coeff_cmb.py** estimates the Fourier coefficients from CMB map (which is in .fits format). 
 
-* **ACDcommander15.py, ACDsevem18.py** compute the AC discrepancy maps with resolution Nside = 256 for the Commander 2015 and SEVEM 2018 CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps). They use the Fourier coefficients estimated by **coeff_cmb.py**
+* **Autocorr.py** computes autocorrelation for a sequence.
+
+* **ACDcommander15.py, ACDsevem18.py** compute the AC discrepancy maps with resolution Nside = 256 for the Commander 2015 and SEVEM 2018 CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps). They use the Fourier coefficients estimated by **coeff_cmb.py**.
+
+* **ACD_plt.py** plots the AC discrepancy map and saves it to .png format.
+
+* **cmbmap.mat** is the colormap (platter) for CMB maps and AC discrepancy maps.
 
 
 ## Demo
 When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 1024 using **ACD.py** for the Commander 2015 (left) and SEVEM 2018 CMB (right) temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
-  <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="420"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="420">
+  <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="430"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="430">
 
 
 ## Acknowledgements
