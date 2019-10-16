@@ -3,8 +3,6 @@ This is the Python package for AC discrepancy maps in the paper
 
 >Ian H. Sloan, Quoc T. Le Gia, Yu Guang Wang, Robert S. Womersley and Jan Hamann. [A New Probe of non-Gaussianity for CMB Maps](). arXiv preprint arXiv:, 2019.
 
-Correpond to Yu Guang Wang (yuguang.wang@unsw.edu.au).
-
 ## Abstract
 We introduce a newmathematical tool (a direction-dependent probe) to analyse the randomness
 of purported isotropic Gaussian random fields on the sphere. We apply the probe to assess
@@ -82,6 +80,8 @@ If you use our codes and datasets, please cite:
 }
 ```
 ## Notes
+If you find any problem in codes, please contact Yu Guang Wang (yuguang.wang@unsw.edu.au).
+
 The package **CMBProbe** may be used for any research purposes under the following conditions:
 * The user must acknowledge the use of **CMBProbe** in publications resulting from the use of the functions/tools.
 * The user may not redistribute **CMBProbe** without separate permission.
