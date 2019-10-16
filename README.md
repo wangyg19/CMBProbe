@@ -43,7 +43,7 @@ When the dependent packages are installed successfully, users can obtain the fol
 
 <figure>
   <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" style="width:100%">
-  <figcaption>Fig.1 - AC discrepancy map for Commander 2015.</figcaption>
+  <figcaption class="center">Fig.1 - AC discrepancy map for Commander 2015.</figcaption>
 </figure>
 
 <figure>
