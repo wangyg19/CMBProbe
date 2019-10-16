@@ -30,7 +30,7 @@ pip install healpy
 ```
 * To enhance the computational efficiency, we recommend users to run the codes in HPC facility.
 
-## Program routines
+## Program Routines
 * **coeff_cmb.py** estimates the Fourier coefficients from CMB map (which is in .fits format). 
 
 * **autocorr.py** computes autocorrelation for a sequence.
