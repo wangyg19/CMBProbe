@@ -24,18 +24,14 @@ random field plus a non-random needlet-like structure located near the galactic 
 ## Environment Configuration and Package Installation
 The code has been tested in Python 3.6 environment. The CMBProbe relies on healpy package
 * [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
+Install healpy using
+>pip install healpy
 * To enhance the computational efficiency, we recommend users to run the codes in HPC facility.
 
-## Functions and Folders
-* **utils**: This folder contains some basic tools/resources/auxiliary functions used for implementing our main functions, including
-   1. SD: A folder that contains six examples of [symmetric spherical design points](https://web.maths.unsw.edu.au/~rsw/Sphere/EffSphDes/ss.html), which are used in our paper. 
-   2. tangent_field: A folder that contains several functions for generating three vector fields and their visualization used in our paper. These functions come from E. J. Fuselier and G. B. Wright as they use in "[*Stability and error estimates for vector field interpolation and decomposition on the sphere with RBFs. SIAM Journal on Numerical Analysis, 47(5):3213-39*](https://epubs.siam.org/doi/abs/10.1137/080730901)".
-   3. m_map: A [mapping package](https://www.eoas.ubc.ca/~rich/map.html#ack) for Matlab. We have used some functions of this package for visualization of tangent fields. 
-   4. QpS2.m: A function used for computing the weights and quadrature nodes (for a given degree and a specific type of quadrature rule) in both Cartesian and spherical coordinates. 
+## Program routines
+* 
 
-* **Setup.m**: The script for downloading NFFT package (compatible with the user's operating system and computing environment) and unzipping and installing the package in the current folder of FaVeST. If the installation is successful, users can test FaVeST in the demos and examples. The **Setup.m** and **Demo.m** have been tested on **Ubuntu 16.04.6, macOS High Sierra and Mojave, Windows7，8，10**. Please make sure that your operating system meets the requirement of NFFT package.</span>
-
-* **Demo.m**: The picture below shows the AC discrepancy map (right) with resolution Nside = 256 **ACD.py** for the Commander 2015 CMB temparature map (left) from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
+* **ACDcommander15.py, ACDsevem18.py** compute the AC discrepancy maps with resolution Nside = 256 for the Commander 2015 and SEVEM 2018 CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps). They use the Fourier coefficients estimated by **coeff_cmb.py**
 
 
 ## Demo
