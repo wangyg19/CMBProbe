@@ -3,7 +3,7 @@ This is the Python package for AC discrepancy maps in the paper
 
 >Ian H. Sloan, Quoc T. Le Gia, Yu Guang Wang, Robert S. Womersley and Jan Hamann. [A New Probe of non-Gaussianity for CMB Maps](). arXiv preprint arXiv:, 2019.
 
-Author: Dr. Yu Guang Wang (yuguang.wang@unsw.edu.au).
+Correponds to Yu Guang Wang (yuguang.wang@unsw.edu.au).
 
 ## Abstract
 We introduce a newmathematical tool (a direction-dependent probe) to analyse the randomness
