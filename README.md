@@ -25,7 +25,9 @@ random field plus a non-random needlet-like structure located near the galactic 
 The code has been tested in Python 3.6 environment. The CMBProbe relies on healpy package
 * [healpy](https://healpy.readthedocs.io/en/latest/): Zonca, A., Singer, L., Lenz, D., Reinecke, M., Rosset, C., Hivon, E., and Gorski, K. (2019). "[Healpy: equal area pixelization and spherical harmonics transforms for data on the sphere in python. J. Open Source Softw., 4:1298.](https://joss.theoj.org/papers/10.21105/joss.01298)".
 Install healpy using
->pip install healpy
+```
+pip install healpy
+```
 * To enhance the computational efficiency, we recommend users to run the codes in HPC facility.
 
 ## Program routines
