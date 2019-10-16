@@ -45,7 +45,7 @@ pip install healpy
 
 
 ## Demo
-When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 256 using the following routines for the Commander 2015 (left) and SEVEM 2018 CMB (right) temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
+When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 256 using the following routines for the Commander 2015 (left) and SEVEM 2018 (right) CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
 For example, run
 ```
