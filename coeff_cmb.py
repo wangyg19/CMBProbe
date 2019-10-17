@@ -7,7 +7,7 @@ from colormap import cmbcmap
 
 map_type = 'commander'
 #map_type = 'nilc'
-# map_type = 'sevem'
+#map_type = 'sevem'
 #map_type = 'smica'
 Nside = 2048
 vs = '2015'
@@ -67,12 +67,10 @@ if(vs=='2015'):
     ti = map_txt + ' PR2 ' + vs + ', Nside $= %d$' %Nside
 if(vs=='2018'):
     ti = map_txt + ' PR3 ' + vs + ', Nside $= %d$' %Nside
-hp.mollview(planckmap, title = ti, cmap=cm, min=-5e-4, max=5e-4, xsize=1200, nest=False)
+hp.mollview(planckmap*(10**6), title = ti, cmap=cm, min=-300, max=300, xsize=1200, nest=False)
 plt.title(ti)
 plt.savefig(sv_fig,format='png',dpi=600)
 
 # save coefficients
 sv = map_type + vs + '_' + plt_q + '_HL' + str(Nside) + '.mat'
 sio.savemat(sv, mdict={'alm':alm})
-
-

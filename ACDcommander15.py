@@ -53,24 +53,23 @@ ftxt.write('AC discrepancy for %s\n' % map_txt)
 # load Fourier coefficients of map
 if((map_type=='sevem')|(map_type=='smica')|(map_type=='nilc')|(map_type=='commander')):
     # orignal map and Fourier coefficients
-    LMAX = 4000
+#    LMAX = 4000
+    LMAX = 6143
     Nside = 2048
-    ld_alm = map_type + vs + plt_q + '_HL' + str(Nside) + '.mat'
+    ld_alm = map_type + vs + '_' + plt_q + '_HL' + str(Nside) + '.mat'
     mat_alm = sio.loadmat(ld_alm)
     alm = np.reshape(mat_alm['alm'],[hp.Alm.getsize(LMAX)])
-    # parameters for DFP
+    # parameters for AC discrepancy
     L = 2500
+#    L = 20
     Nside_acd = 256
 #    Nside_acd = 8
     Npix_acd = Nside_acd**2*12
-    lag_acmap = 10;
-#    lag_acf_max = 200;
+    lag_acd = 10;
     Tlp = np.zeros((L+1,Npix_acd),dtype='complex128')
-    sv_acd = 'ACD' + map_txt + vs + '_L' + str(L) + '_HL' + str(Nside_acd) + '_lag' + str(lag_acmap) + '.mat'
-    if not os.path.exists(sv_dir):
-        os.mkdir(sv_dir)
+    sv_acd = 'ACD' + map_txt + vs + '_L' + str(L) + '_HL' + str(Nside_acd) + '_lag' + str(lag_acd) + '.mat'
     
-ftxt.write(' - L0 = %d, lag = %d\n' % (L,lag_acmap))
+ftxt.write(' - L0 = %d, lag = %d\n' % (L,lag_acd))
 ftxt.write(' - Nside = %d, Npix = %d\n' % (Nside_acd,Npix_acd))
         
 # T_{l,p}
@@ -109,11 +108,11 @@ ftxt.write(' - CPU time for computing normalized T_{l,p}: %.4f\n' % t1)
 # Autocorrelation and AC discrepancy
 thres = 2/np.sqrt(L-1); # threshold for autocorrelation
 # compute autocorrelation and AC discrepancy
-acf = np.zeros((lag_acmap+1,Npix_acd),dtype='float64')
+acf = np.zeros((lag_acd+1,Npix_acd),dtype='float64')
 acd = np.zeros(Npix_acd,dtype='float64')
 t0 = time.time()
 for i in range(Npix_acd):
-    acf[:,i] = autocorr(nTlp[:,i],lag_acmap)
+    acf[:,i] = autocorr(nTlp[:,i],lag_acd)
     acd[i] = np.sum(np.maximum(np.absolute(acf[1:,i])-thres,0))
 t2 = time.time()-t0
 ftxt.write(' - CPU time for computing AC discrepancy: %.4f\n' % t2)
