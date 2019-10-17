@@ -45,6 +45,8 @@ pip install healpy
 ## Demo
 When the dependent packages are installed successfully, users can obtain the following Mollweide projection view of the AC discrepancy maps with resolution Nside = 256 using the following routines for the Commander 2015 (left) and SEVEM 2018 (right) CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps).
 
+<img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="430"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="430">
+
 For example, run
 ```
 python coeff_cmb.py
@@ -55,7 +57,7 @@ Run
 ```
 python ACDcommander15.py
 ```
-to compute AC discrepancies at HEALPix points at resolutioin Nside=256 (with about 786,432 points). The data will be stored in the new folder "CMBdfp".
+to compute AC discrepancies at HEALPix points at resolutioin Nside=256 (with about 786,432 points).
 
 Then run
 ```
@@ -63,7 +65,7 @@ python ACDplt.py
 ```
 to generate the AC discrepancy map for Commander 2015.
 
-  <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="430"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="430">
+All the generated data are in .mat format and stored in the same folder where the program scripts are in.
 
 
 ## Acknowledgements
