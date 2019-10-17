@@ -35,7 +35,7 @@ pip install healpy
 
 * **ACDcommander15.py, ACDsevem18.py** compute the AC discrepancy maps with resolution Nside = 256 for the Commander 2015 and SEVEM 2018 CMB temparature maps from [Planck Legacy Archive](https://pla.esac.esa.int/#maps). They use the Fourier coefficients estimated by **coeff_cmb.py**.
 
-* **ACD_plt.py** plots the AC discrepancy map and saves it to .png format.
+* **ACDplt.py** plots the AC discrepancy map and saves it to .png format.
 
 * **colormap.py** configures the colormap for CMB and AC discrepancy maps using platter **cmbmap.mat**.
 
