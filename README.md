@@ -41,12 +41,12 @@ pip install healpy
 
 * **cmbmap.mat** is the colormap (platter) for CMB maps and AC discrepancy maps.
 
-* Parameters: 
-map_type   -  one of four CMB map methods: commander, nilc, sevem, smica. 
-vs         -  year version of CMB map, either '2015' or '2018'.
-plt_q      -  flag to choose inpainted or non-inpainted CMB maps, either 'I_inpainted' or 'I_noninpainted'. 
-L          -  max degree of Fourier coefficients used in computing AC discrepancy. 
-Nside_acd  -  Nside for the AC discrepancy map; lag_acmap - max lag for AC discrepancy.
+* **Some Parameters** in the programs: 
+* map_type   -  one of four CMB map methods: commander, nilc, sevem, smica. 
+* vs         -  year version of CMB map, either '2015' or '2018'.
+* plt_q      -  flag to choose inpainted or non-inpainted CMB maps, either 'I_inpainted' or 'I_noninpainted'. 
+* L          -  max degree of Fourier coefficients used in computing AC discrepancy. 
+* Nside_acd  -  Nside for the AC discrepancy map; lag_acmap - max lag for AC discrepancy.
 
 
 ## Demo
