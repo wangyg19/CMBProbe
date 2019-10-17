@@ -65,7 +65,7 @@ python ACDplt.py
 ```
 to generate the AC discrepancy map for Commander 2015.
 
-All the generated data are in .mat format and stored in the same folder where the program scripts are in.
+All the generated data are in .mat format and stored in the same folder where the program scripts are in. For initial test, try Nside for AC discrepancy map equal to 8 and degree L = 20.
 
 
 ## Acknowledgements
