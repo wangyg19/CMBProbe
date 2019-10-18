@@ -53,7 +53,7 @@ Nside      -  Nside for CMB maps
 ```
 
 ## Demo
-When the dependent packages are installed, users can obtain the Mollweide projection view of the AC discrepancy maps with resolution Nside = 256 using the following routines for the Commander 2015 and SEVEM 2018 CMB temparature maps respectively.
+When the dependent packages are installed, users can obtain the Mollweide projection view of the AC discrepancy maps with resolution Nside = 1024 using the following routines for the Commander 2015 and SEVEM 2018 CMB temparature maps respectively.
 
 <img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_Commander2015_Nside1024_notitle.png" alt="acd_commander15" width="430"><img src="https://github.com/wangyg19/CMBProbe/blob/master/ACD_SEVEM2018_Nside1024_notitle.png" alt="acd_sevem18" width="430">
 
@@ -67,7 +67,7 @@ Run
 ```
 python ACDcommander15.py
 ```
-to compute AC discrepancies at HEALPix points at resolutioin Nside=256 (with about 786,432 points).
+to compute AC discrepancies at HEALPix points at resolutioin Nside = 1024 (with about 786,432 points).
 
 Then run
 ```
