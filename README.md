@@ -1,7 +1,7 @@
 # CMBProbe
 This is the Python package for generating AC discrepancy maps in the paper
 
->Ian H. Sloan, Quoc T. Le Gia, Yu Guang Wang, Robert S. Womersley and Jan Hamann. [A New Probe of non-Gaussianity for CMB Maps](). arXiv preprint arXiv:, 2019.
+>Jan Hamann, Quoc T. Le Gia, Ian H. Sloan, Yu Guang Wang and Robert S. Womersley. [A New Probe of non-Gaussianity for CMB Maps](). arXiv preprint arXiv:, 2019.
 
 ## Abstract
 We introduce a newmathematical tool (a direction-dependent probe) to analyse the randomness
