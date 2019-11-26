@@ -68,7 +68,7 @@ Run
 ```
 python ACDcommander15.py
 ```
-to compute AC discrepancies at HEALPix points at resolutioin Nside = 1024 (with about 786,432 points).
+to compute AC discrepancies at HEALPix points at resolutioin Nside = 1024 (with about 12,582,912 points).
 
 Then run
 ```
