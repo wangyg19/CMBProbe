@@ -44,13 +44,13 @@ pip install healpy
 
 * **Some Parameters** in the programs: 
 ```
-map_type   -  one of four CMB map methods: commander, nilc, sevem, smica 
+map_type   -  one of four CMB map generating methods: commander, nilc, sevem, smica 
 vs         -  year version of CMB map, either '2015' or '2018'
 plt_q      -  flag to choose inpainted or non-inpainted CMB maps, either 'I_inpainted' or 'I_noninpainted' 
 L          -  max degree of Fourier coefficients used in computing AC discrepancy 
-Nside_acd  -  Nside for the AC discrepancy map
-lag_acd    -  max lag for AC discrepancy
-Nside      -  Nside for CMB maps
+Nside_acd  -  Nside for the AC discrepancy map; by default Nside_acd = 1024
+lag_acd    -  max lag for AC discrepancy; by default lag_acd = 10
+Nside      -  Nside for CMB maps; by defaulty Nside = 2048
 ```
 
 ## Demo
