@@ -1,23 +1,10 @@
 # CMBProbe
 This is the Python package for generating AC discrepancy maps in the paper
 
->Jan Hamann, Quoc T. Le Gia, Ian H. Sloan, Yu Guang Wang and Robert S. Womersley. [A New Probe of Gaussianity and Isotropy for CMB Maps](). arXiv preprint arXiv:, 2019.
+>Jan Hamann, Quoc T. Le Gia, Ian H. Sloan, Yu Guang Wang and Robert S. Womersley. [A New Probe of Gaussianity and Isotropy for CMB Maps](https://arxiv.org/abs/1911.11442). arXiv preprint arXiv:1911.11442, 2019.
 
 ## Abstract
-We introduce a newmathematical tool (a direction-dependent probe) to analyse the randomness
-of purported isotropic Gaussian random fields on the sphere. We apply the probe to assess
-the full-sky cosmic microwave background (CMB) temperature maps produced by the Planck
-collaboration (PR2 2015 and PR3 2018), with special attention to the inpainted maps. To
-study the randomness of the fields represented by each map we use the autocorrelation of the
-sequence of probe coefficients (which are just the full-sky Fourier coefficients $a_{\ell 0}$ if the z axis
-is taken in the probe direction). If the field is isotropic and Gaussian then the probe coefficients
-for a given direction should be realisations of uncorrelated scalar Gaussian variables. We find
-that for most of the maps there are many directions for which this is not the case.We make a first
-attempt at justifying the features of the temperature maps that are contributing to the apparent
-lack of randomness. In the case of Commander 2015 we mimic an aspect of the observed
-behavior with a model field that is Gaussian but not isotropic. In contrast, the non-inpainted
-2018 SEVEM map (which has visible equatorial pollution) is modelled by an isotropic Gaussian
-random field plus a non-random needlet-like structure located near the galactic center.
+We introduce a new mathematical tool (a direction-dependent probe) to analyse the randomness of purported isotropic Gaussian random fields on the {sphere}. We apply the probe to assess the full-sky cosmic microwave background (CMB) temperature maps produced by the {\it Planck} collaboration (PR2 2015 and PR3 2018), with special attention to the inpainted maps. To study the randomness of the fields represented by each map we use the autocorrelation of the sequence of probe coefficients (which are just the full-sky Fourier coefficients $a_{\ell,0}$ if the $z$ axis is taken in the probe direction).  If the field is {isotropic and Gaussian} then the probe coefficients for a given direction should be realisations of uncorrelated scalar Gaussian random variables. We find that for most of the maps there are many directions for which this is not the case. We make a first attempt at justifying the features of the temperature maps that contribute to the apparent lack of randomness. In the case of \texttt{Commander} 2015 we mimic an aspect of the observed behaviour with a model field that is Gaussian but not isotropic. In contrast, the non-inpainted 2018 \texttt{SEVEM} map (which has visible equatorial pollution) is modelled by an isotropic Gaussian random field plus a non-random needlet-like structure located near the galactic centre.
 
 ## Dependent Package
 The codes have been tested in Python 3.6 environment. The CMBProbe relies on healpy package
